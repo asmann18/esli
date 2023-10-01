@@ -1,0 +1,55 @@
+body{
+    background-image: url('https://codetheweb.blog/assets/img/posts/css-advanced-background-images/mountains.jpg');
+    background-size: cover;
+    background-image: url(/h1_hero1.jpg);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.fa-solid.fa-house{
+    color: black;
+    margin-left: 300px;
+    font-size: 30px;
+    margin-top: 0px;
+}
+header{
+    position: relative;
+
+
+}
+.header__left{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    display: inline;
+}
+.header__right{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+.header__right>ul>li{
+    display: inline;
+}
+.header__right>ul>li>a{
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+    font-weight: 900;
+    font-size: 20px;
+}
+.section1{
+    position: relative;
+    top: 80px;
+}
+.section1_left{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.section1_right{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
